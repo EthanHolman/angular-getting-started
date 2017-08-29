@@ -16,7 +16,7 @@ export class StarComponent implements OnChanges {
 		this.ratingClicked.emit(`The rating ${this.rating} was clicked`);
 	}
 
-	ngOnChanges(): void {
+	ngOnChanges(): void { // WHEN DOES THIS METHOD GET CALLED?
 		this.starWidth = this.rating * 86/5;
 	}
 
