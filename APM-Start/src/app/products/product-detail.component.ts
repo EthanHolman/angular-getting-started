@@ -29,6 +29,7 @@ export class ProductDetailComponent implements OnInit {
       "starRating": 5.0,
       "imageUrl": "https://openclipart.org/image/300px/svg_to_png/2987/ryanlerch-Red-Lamborghini.png"
     }
+    
     console.log("[ProductDetail] About to print all products??");
     console.log(this._productSvc.getProducts2());
     console.log("[ProductDetail] END of print all products");
